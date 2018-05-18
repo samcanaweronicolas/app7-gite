@@ -9,7 +9,7 @@ $(document).ready(function(e){
 			
 		$('#derecha').on("swiperight",function(){
 			navigator.notification. confirm("¿Que quieres hacer?",function(opt){
-				switch(otp)
+				switch(opt)
 				{
 					case 1:
 					navigator.notification.beep(1);
